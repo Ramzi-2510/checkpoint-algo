@@ -1,0 +1,15 @@
+read(c)
+c=uppercase(c)
+var Long,mot,voy=0
+WHILE (c<>'.') DO
+  long=long+1
+  IF (c=" ") THEN
+      mot=mot+1
+  END_IF
+IF (c="a" OR c="e" ORV c="y" OR c="i" OR c="o") THEN
+    voy=voy+1
+END_IF
+read(c)
+c=lowercase(c)
+END_WHILE
+mot =mot+1
